@@ -2,7 +2,7 @@ import arrowDown from './arrow-down.svg';
 import arrow from './arrow.svg';
 import cover from './cover.png';
 import facebook from './facebook.svg';
-import getStarted from './get-started.svg';
+import getStarted from './get-started.png';
 import headset from './headset.svg';
 import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
@@ -27,7 +27,7 @@ import stamp from './stamp.png';
 import twitter from './twitter.svg';
 import vercel from './vercel.svg';
 import vrpano from './vrpano.svg';
-import whatsNew from './whats-new.svg';
+import whatsNew from './whats-new.png';
 
 export {
     arrowDown,
