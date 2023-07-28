@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import styles from '../styles';
 import {navVariants} from '../utils/motion';
+import { menu, search } from "../assets";
 
 
 const Navbar = () => (
@@ -15,7 +16,7 @@ const Navbar = () => (
     <div className="absolute w-[50%] inset-0 gradient-01"/>
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img 
-        src="../src/assets/search.svg"
+        src={search}
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       />
@@ -24,7 +25,7 @@ const Navbar = () => (
       </h2>
 
       <img 
-        src="../src/assets/menu.svg"
+        src={menu}
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       />

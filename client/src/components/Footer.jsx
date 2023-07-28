@@ -4,6 +4,7 @@ import {motion} from 'framer-motion';
 import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
+import { headset } from '../assets';
 
 const Footer = () => (
   <motion.footer
@@ -24,7 +25,7 @@ const Footer = () => (
             className='flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]'
           >
             <img
-              src="../src/assets/headset.svg"
+              src={headset}
               alt="headset"
               className='w-[32px] h-[32px] object-contain'
             />

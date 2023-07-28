@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from '../styles';
 import {staggerContainer, fadeIn} from '../utils/motion';
 import { TitleText, TypingText  } from '../components';
+import { map, people01, people02, people03 } from "../assets";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -22,14 +23,14 @@ const World = () => (
         className="relative mt-[68px] flex w-full h0 [550px]"
       >
         <img
-          src="../src/assets/map.png"
+          src={map}
           alt="map"
           className="w-full h-full object-cover"
         />
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img 
-            src="../src/assets/people-01.png"
+            src={people01}
             alt="people-01"
             className="w-full h-full"
           />
@@ -37,7 +38,7 @@ const World = () => (
 
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img 
-            src="../src/assets/people-02.png"
+            src={people02}
             alt="people-02"
             className="w-full h-full"
           />
@@ -45,7 +46,7 @@ const World = () => (
 
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img 
-            src="../src/assets/people-03.png"
+            src={people03}
             alt="people-03"
             className="w-full h-full"
           />
